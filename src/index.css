@@ -1,4 +1,5 @@
-body {
+
+ body {
   font-family: Georgia, serif;
   background-color: #f8f8f8;
   margin: 0;
@@ -6,8 +7,57 @@ body {
 }
 
 #logo-image {
-  width: 30px;
-  margin-right: 10px;
+  width: 50px;
+  height: 40px;
+  margin-right: 20px;
+  margin-left: 15px;
 }
 
-/* Add your own custom styles here */
+#LibraryText {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 510px;
+}
+
+
+#logout {
+  color: white;
+  margin-right: 30px;
+  margin-left: 20px;
+  font-weight: bolder;
+}
+
+
+
+#account {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+
+
+#login {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+
+#register {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+  margin-left: 20px;
+  font-weight: bolder;
+}
+
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  margin: 1em;
+}
+
+
