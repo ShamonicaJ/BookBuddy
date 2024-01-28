@@ -1,6 +1,9 @@
-/* eslint-disable no-unused-vars */
+
 import { useState } from 'react'
+
 import { useRegisterMutation } from './AuthSlice'
+
+
 import { useNavigate } from 'react-router-dom'
 
 export default function Register() {
@@ -47,5 +50,4 @@ export default function Register() {
             { error && <div>{error.data.message}</div> }
         </form>
     </>
-}
-// 
+

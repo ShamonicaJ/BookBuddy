@@ -13,6 +13,4 @@ export default function ReservedBookCard({ book }) {
             <button>Return</button>
         </form>
     </h3>
-}
 
-// 
