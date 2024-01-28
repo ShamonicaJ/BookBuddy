@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { useReturnMutation } from "../books/booksApi";
 
 export default function ReservedBookCard({ book }) {

@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useState } from 'react'
-import { useRegisterMutation } from './authSlice'
+import { useRegisterMutation } from './AuthSlice'
 import { useNavigate } from 'react-router-dom'
 
 export default function Register() {

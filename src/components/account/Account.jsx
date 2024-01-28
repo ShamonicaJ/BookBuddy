@@ -1,4 +1,4 @@
-import { useMeQuery, useReservationsQuery } from "./authSlice"
+import { useMeQuery, useReservationsQuery } from "./AuthSlice"
 import ReservedBookCard from "./ReservedBookCard";
 import { useDispatch } from 'react-redux';
 

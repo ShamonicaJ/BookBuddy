@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useLoginMutation } from './authSlice'
+import { useLoginMutation } from './AuthSlice'
 import { useNavigate } from 'react-router-dom'
 
 export default function Login() {
